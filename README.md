@@ -3,9 +3,7 @@
 ## Complexity
 
 Before explaining a complexity of matrix multiplication, we are going to describe application of tensor product as a method of matrix multiplication. Define matrix multiplication as Tensor product when we do AB=C such below:
-$$
-\sum\limits_{i=1}^m \sum\limits_{j=1}^n \sum\limits_{k=1}^p A_{ij}B_{jk}C{ki}.
-$$
+$$\sum\limits_{i=1}^m \sum\limits_{j=1}^n \sum\limits_{k=1}^p A_{ij}B_{jk}C{ki}.$$
 
 A X B X D=sigma(i,j) (a_ir * b_jr*c_ij) when d_ij is component of group consisting of 0 or 1. 
 
