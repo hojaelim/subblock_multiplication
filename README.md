@@ -1,6 +1,7 @@
-# subblock_multiplication
+# Subblock Multiplication
 
-## Complexity
+## Further Explanation of Bini's Algorithm 
+### Complexity
 
 Before explaining the complexity of matrix multiplication, we describe the application of tensor product as a method of matrix multiplication. For a matrix multiplication of the form $AB=C$, we can define matrix multiplication as a tensor product of the form such as below:
 
@@ -14,7 +15,7 @@ In this case, multiplication time complexity indicates the rank of the Tensor pr
  - Coppersmith and Winograd $\mathcal{O}(n^{2.376})$ .
 
 
-## APA (Arbitrary-Precision-Approximation)
+### APA (Arbitrary-Precision-Approximation)
 This idea was first introduced by Bini; it allows small error terms to reduce complexity. Previously, there were only algebraic methods only for exact matrix multiplication. Consequently, we can have more computational information at one multiplication. By adjusting the error term, we can approximate the result to the exact value, relatively reducing time complexity(figure). Specifically, Bini introduced a matrix multiplication algorithm where the first matrix A has a zero block on the index (2,1). 
 
 $$ C=A\*B + \epsilon\*D,\ D \rightarrow 0\ \mathrm{as}\ \epsilon \rightarrow 0. $$
