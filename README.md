@@ -15,8 +15,8 @@ In this case, multiplication time complexity indicates the rank of the Tensor pr
 
 
 ## APA (Arbitrary-Precision-Approximation)
-This idea was first introduced by bini allowing small error term to reduce complexity. Before, there is only algebraic method only for exact matrix multiplication. Consequently we can have more computational information at one multiplication. By adjusting the e, we can approximate the result to the exact value relatively reducing time complexity(figure). Especially, bini introduce matrix multiplication algorithm when the first matrix A has a zero block on the index (2,1). 
+This idea was first introduced by Bini; it allows small error terms to reduce complexity. Previously, there were only algebraic methods only for exact matrix multiplication. Consequently, we can have more computational information at one multiplication. By adjusting the error term, we can approximate the result to the exact value, relatively reducing time complexity(figure). Specifically, Bini introduced a matrix multiplication algorithm where the first matrix A has a zero block on the index (2,1). 
 
-C=A*B + e*D, D goes to 0 as e is very small. 
+$$ C=A*B + \epsilon*D,\ D \rightarrow 0\ \mathrm{as}\ \epsilon \rightarrow 0. $$
 
-Code below:
+The code for this is titled **binio.m**.
