@@ -1,5 +1,14 @@
 # Subblock Multiplication
 
+## Included Codes
+Within this repository, we have included:
+ - FDM
+ - Naive
+ - Strassen
+ - Bini
+ - Index Multiplication
+ - Subblock Method.
+
 ## Further Explanation of Bini's Algorithm 
 ### Complexity
 
@@ -24,3 +33,4 @@ Specifically, Bini introduced a matrix multiplication algorithm where the first 
 
 
 The code for this is titled **binio.m**.
+
