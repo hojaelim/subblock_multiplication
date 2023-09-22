@@ -25,8 +25,6 @@ for i=1:y
         break;
     end
 end
-x=16
-
 
 %% 겹치는 matrix size=b
 b=x/2;
